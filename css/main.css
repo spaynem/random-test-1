@@ -149,17 +149,17 @@ h2 {
     width: calc(100% - 1em);
     display: block;
     color: white;
-    border-radius: 15px;
-    padding: 0;
+    border-radius: 18px;
+    padding: 0.2em;
     position: relative;
     margin: auto;
     text-decoration: wavy;
+    z-index: 4;
     
 }
 
 .address {
-    display: inherit;
-    position: relative;
+    display: center;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%
@@ -170,44 +170,45 @@ h2 {
     margin: auto;
     width: 500px;
     color: black;
-    padding: 3em 0;
     margin-top: 5%;
-    position: relative;
+    position: center;
     text-align: center;
 
 }
 
 .footerlinks {
-    margin: auto;
     display: center;
     position: center;
-    padding: 1em 1.5em;
+    padding: 2em;
     text-align: center;
 
 }
 
 .footer-links li {
-    margin: auto;
+    margin: 0;
     display: center;
     size: 2em;
-    position: relative;
     width: 100%;
-    padding: 4em 2em;
+    padding: 2em;
     text-align: center;
 }
 
 .footer-links li a {
-    margin: auto;
-    display: flex;
+    margin: 0;
+    display: center;
     color: black;
     text-decoration: none;
     font-size: 2em;
-    position: inherit;
     width: 75%;
-    padding: 1em 2em;
+    padding: 1em;
     text-align: center;
 
 }
+
+footer ul li a:hover {
+    background-color: rgba(168, 168, 168, 0.473);
+}
+
 
 
 nav ul {
