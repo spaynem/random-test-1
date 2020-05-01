@@ -37,7 +37,7 @@ ul {
 .container {
     margin: 1em 1em;
     text-align: center;
-    padding: 1.2em, 1.5em;
+    padding: 1.2em 1.5em;
 }
 
 .logo {
@@ -181,7 +181,7 @@ h2 {
     margin: auto;
     display: center;
     position: center;
-    padding: 1em, 1.5em;
+    padding: 1em 1.5em;
     text-align: center;
 
 }
@@ -192,7 +192,7 @@ h2 {
     size: 2em;
     position: relative;
     width: 100%;
-    padding: 4em, 2em;
+    padding: 4em 2em;
     text-align: center;
 }
 
