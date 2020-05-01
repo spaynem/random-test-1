@@ -1,29 +1,28 @@
 
 h1 {
     margin: auto;
-    color: rgba(220, 60, 226, 0.705);
+    color: rgba(220, 60, 226, 0.541);
     font-family:'Nervous';
-    font-size: 3.5em;
+    font-size: 4.20em;
     padding-bottom: 15px;
 }
 
 
 p {
     text-align: center;
-    margin: 1;
+    margin: 1em 1em;
     font-size: 15px;
     text-decoration: rgba(58, 58, 58, 0.925);
     padding-bottom: 2em;
 }
 
 body {
-    margin: 1;
     background:white;
     font-family: 'Roboto' , sans-serif;
 }
 
 p, blockquote {
-    margin: 1;
+    margin: 1em;
     font-weight: bolder;
     font-size: 2.60em;
     line-height: 1.8em
@@ -36,7 +35,7 @@ ul {
 }
 
 .container {
-    margin: 1;
+    margin: 1em 1em;
     text-align: center;
     padding: 1.2em, 1.5em;
 }
@@ -67,7 +66,7 @@ header {
 }
 
 h1, .subheader {
-    position: center
+    position: relative
 }
 
 .subheader {
@@ -79,7 +78,7 @@ h1, .subheader {
 }
 
 .bottom-container {
-    position: center;
+    position: relative;
     text-align: center;
     background: lightgrey;
     padding: 3em 0 1.5em;
@@ -90,14 +89,13 @@ h1, .subheader {
 .middle-container {
     padding-top: 15px;
     width: calc(100% - 1em);
-    margin: 1;
     position: relative;
     text-align: center;
 
 }
 
 .side-container {
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 15px;
     width: calc(100% - 1em);
     position: relative;
@@ -161,7 +159,7 @@ h2 {
 
 .address {
     display: inherit;
-    position: center;
+    position: relative;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%
@@ -174,13 +172,13 @@ h2 {
     color: black;
     padding: 3em 0;
     margin-top: 5%;
-    position: center;
+    position: relative;
     text-align: center;
 
 }
 
 .footerlinks {
-    margin: 2em auto;
+    margin: auto;
     display: center;
     position: center;
     padding: 1em, 1.5em;
@@ -206,7 +204,7 @@ h2 {
     font-size: 2em;
     position: inherit;
     width: 75%;
-    padding: 1em, 2em;
+    padding: 1em 2em;
     text-align: center;
 
 }
@@ -281,7 +279,7 @@ nav ul li a:hover {
     }
     .side-container img {
         width: 20%;
-        position: center;
+        position: relative;
 
     }
        
