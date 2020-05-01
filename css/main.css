@@ -4,11 +4,19 @@ h1 {
     color: rgba(220, 60, 226, 0.705);
     font-family:'Nervous';
     font-size: 3.5em;
+    padding-bottom: 15px;
 }
 
 p {
-    margin: center;
+    margin: 1;
     text-align: center;
+}
+
+p1 {
+    margin: 1;
+    font-size: 15px;
+    text-decoration: rgba(58, 58, 58, 0.925);
+    padding-bottom: 2em;
 }
 
 body {
@@ -18,6 +26,7 @@ body {
 }
 
 p, blockquote {
+    margin: 1;
     font-weight: bolder;
     font-size: 2.60em;
     line-height: 1.8em
@@ -30,6 +39,7 @@ ul {
 }
 
 .container {
+    margin: 1;
     text-align: center;
     padding: 1.2em, 1.5em;
 }
@@ -64,6 +74,7 @@ h1, .subheader {
 }
 
 .subheader {
+    padding-top: 15px;
     font-size: 2em;
     font-family: 'Nervous';
     position: relative;
@@ -71,7 +82,7 @@ h1, .subheader {
 }
 
 .bottom-container {
-    position: relative;
+    position: center;
     text-align: center;
     background: lightgrey;
     padding: 3em 0 1.5em;
@@ -80,23 +91,24 @@ h1, .subheader {
 }
 
 .middle-container {
+    padding-top: 15px;
     width: calc(100% - 1em);
-    margin: auto;
+    margin: 1;
     position: relative;
     text-align: center;
-    width: inherit;
 
 }
 
 .side-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
     width: calc(100% - 1em);
     position: relative;
     text-align: center;
     text-decoration: none;
     background-color: lightgrey;
     width: 100%;
-    padding: 3em 0 1.5em;
-    margin-top: 5%;
+    margin-top: 15%;
     display: block;
 
 }
@@ -130,8 +142,8 @@ figcaption {
 
 
 h2 {
-    margin-top: 5%;
-    margin-bottom: 5%
+    margin-top: 15%;
+    margin-bottom: 15%
 
 }
 
