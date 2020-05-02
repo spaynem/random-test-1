@@ -289,7 +289,7 @@ nav ul li a:hover {
     }
        
     .side-container ul li:nth-child(1) img {
-        width: 55px;
+        width: 75px;
     }
 
     .side-container ul {
@@ -369,6 +369,7 @@ nav ul li a:hover {
 
     }
     .side-container ul li:nth-child(1) img {
+        width: 85px;
         position: inherit;
        
     }
