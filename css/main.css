@@ -106,6 +106,7 @@ h1, .subheader {
     position: relative;
     text-align: center;
     background-color: lightgrey;
+    background-size: cover;
     width: 100%;
     margin-top: 15%;
     display: block;
@@ -347,6 +348,7 @@ nav ul li a:hover {
     }
 }
 
+
 @media only screen and (min-width: 1024px) {
 
     .monopoly {
@@ -414,6 +416,8 @@ nav ul li a:hover {
 
 
     }
+
+    
 }
 
 
