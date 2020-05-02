@@ -228,7 +228,6 @@ nav ul {
 nav ul li a {
     color:white;
     text-decoration: none;
-    display: inherit;
     width:100%;
     padding: 1em 2em;
     background-color: rgb(110, 110, 110);
