@@ -219,9 +219,10 @@ nav ul {
     right:0;
     height: 100%;
     text-align: left;
-    background: rgba(58, 58, 58, 0.925);
+    background: rgba(58, 58, 58, 0.877);
     z-index: 7;
-    padding-top: 3em;    
+    padding-top: 3em;   
+    backdrop-filter: blur(3px); 
 
 }
 
@@ -285,6 +286,7 @@ nav ul li a:hover {
         background-size: cover;
 
     }
+    
     .side-container img {
         width: 20%;
         position: relative;
@@ -348,9 +350,11 @@ nav ul li a:hover {
     .subheader {
         margin-bottom: auto;
     }
+
     .side-container ul {
         margin: 4% 0 4%;
     }
+
     .footer-container ul {
         margin: 4% 0 4%;
     }
@@ -372,10 +376,12 @@ nav ul li a:hover {
     .cta {
         width: 60%;
     }
+
     .container {
         width: 75%;
         margin: 0 auto;
     }
+
     .side-container ul {
         position: inherit;
         width: auto;
