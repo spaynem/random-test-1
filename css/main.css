@@ -93,6 +93,7 @@ h1, .subheader {
 
 .middle-container {
     padding-top: 15px;
+    padding-bottom: 15px;
     position: relative;
     text-align: center;
 
@@ -110,7 +111,7 @@ h1, .subheader {
 .side-container {
     padding-top: 25px;
     padding-bottom: 15px;
-    width: calc(100% - 1em);
+    width: initial;
     position: relative;
     text-align: center;
     background-color: lightgrey;
