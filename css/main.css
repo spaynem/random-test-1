@@ -133,9 +133,9 @@ h1, .subheader {
 }    
 
 
-.side-container li a {
+.side-container a li {
     color: black;
-    font-size: 25px;
+    font-size: inherit;
 
 }    
 
